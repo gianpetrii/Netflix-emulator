@@ -54,12 +54,12 @@ function Login() {
                 <h2>Formulario de Login</h2>
                 <form onSubmit={submitHandler}>
                 <div className="mb-3">
-                    <label for="exampleInputEmail1" className="form-label">Email address</label>
+                    <label for="exampleInputEmail1" className="form-label">{`Email address (challenge@alkemy.org)`}</label>
                     <input type="text" name='email' className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
                     <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
                 </div>
                 <div className="mb-3">
-                    <label for="exampleInputPassword1" className="form-label">Password</label>
+                    <label for="exampleInputPassword1" className="form-label">{`Password (react)`}</label>
                     <input type="password" name='password' className="form-control" id="exampleInputPassword1"/>
                 </div>
                 <button type="submit" className="btn btn-primary">Submit</button>
